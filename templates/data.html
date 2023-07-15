@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Simple Carousel</title>
+        <script src="{{url_for('static', filename = 'js/main.js')}}?v={{ cache_version }}"></script>
+        <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}?v={{ cache_version }}">
+    </head>
+    <body>
+          <h1><center><u>ALL TRANSACTIONS</u></center></h1>
+          <br><br><br><br><br><br><br><br>
+  
+          <br><br>
+          <div class = "scroll-container">
+            
+            <div class = "scroll-content">
+                
+            {% for i in range(1,page_size) %}
+            <div class = "scrollable-div">
+            <h1><u>Transaction {{i}}</u></h1>
+            <li>Transaction ID: {{transaction[i]['txnId']}}</li>
+            <li>Amount: {{transaction[i]['amount']}} </li>
+            <li>TimeStamp: {{transaction[i]['transactionTimestamp']}}</li>
+            <li>Reference: {{transaction[i]['reference']}}</li>
+            <li>Balance: {{transaction[i]['currentBalance']}}</li>
+            <li>Mode: {{transaction[i]['mode']}}</li>
+            <li>Narration: {{transaction[i]['narration']}}</li>
+            <li>Type: {{transaction[i]['type']}}</li>
+            <li>Value Date: {{transaction[i]['valueDate']}}</li>
+            
+            </div>
+            {% endfor %}
+            
+        </div>
+        
+        </div>
+        <button id = "left">&lt;</button>
+        <button id = "right">&gt;</button>
+        
+    </body>
+</html>

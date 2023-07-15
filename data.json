@@ -1,0 +1,1172 @@
+{
+    "consentId": "b348d33d-10df-4891-9748-461bb98277f4",
+    "id": "1be413e5-bc5e-49c4-b8db-ab0ec9b4a62f",
+    "DataRange": {
+        "to": "2021-09-30T00:00:00.000Z",
+        "from": "2021-04-01T00:00:00.000Z"
+    },
+    "format": "json",
+    "Payload": [
+        {
+            "fipID": "setu-fip",
+            "data": [
+                {
+                    "linkRefNumber": "c63d88f4-e10d-4edd-9ca7-a737b4315712",
+                    "maskedAccNumber": "XXXXXXXX1187",
+                    "decryptedFI": {
+                        "account": {
+                            "linkedAccRef": "c63d88f4-e10d-4edd-9ca7-a737b4315712",
+                            "maskedAccNumber": "XXXXXXXX1187",
+                            "type": "deposit",
+                            "version": "1.1",
+                            "profile": {
+                                "holders": {
+                                    "type": "SINGLE",
+                                    "holder": [
+                                        {
+                                            "address": "10\nLalla Ganj\nMirzapur 669626",
+                                            "ckycCompliance": "true",
+                                            "dob": "1978-05-03",
+                                            "email": "abhardwaj@setu-dummy.com",
+                                            "mobile": "8377534992",
+                                            "name": "Jhanvi Amble",
+                                            "nominee": "REGISTERED",
+                                            "pan": "DZOYL1465A"
+                                        }
+                                    ]
+                                }
+                            },
+                            "summary": {
+                                "balanceDateTime": "2023-07-13T16:06:05+00:00",
+                                "branch": "Jayanagar 7th Block",
+                                "currency": "INR",
+                                "currentBalance": "491640.98",
+                                "currentODLimit": "234938.97",
+                                "drawingLimit": "80288.03",
+                                "exchgeRate": "75",
+                                "facility": "OC",
+                                "ifscCode": "JXHK0331444",
+                                "micrCode": "010409170",
+                                "openingDate": "2023-04-20T16:06:05+00:00",
+                                "pending": {
+                                    "amount": "272628.09",
+                                    "transactionType": "DEBIT"
+                                },
+                                "status": "INACTIVE",
+                                "type": "CURRENT"
+                            },
+                            "transactions": {
+                                "startDate": "2021-04-01T00:00:00.000Z",
+                                "endDate": "2021-09-30T00:00:00.000Z",
+                                "transaction": [
+                                    {
+                                        "amount": "28606.15",
+                                        "currentBalance": "145179.97",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/946791300533/Anika Varkey/GWLF/32405923",
+                                        "reference": "648037810",
+                                        "transactionTimestamp": "2021-07-27T16:54:39+00:00",
+                                        "txnId": "DNEA58944900754386",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-28T16:54:39+00:00"
+                                    },
+                                    {
+                                        "amount": "24821.56",
+                                        "currentBalance": "247601.14",
+                                        "mode": "ATM",
+                                        "narration": "ATM/DE/691908473116/Ayesha Kamdar/KZGI/47415301",
+                                        "reference": "046976608",
+                                        "transactionTimestamp": "2021-04-17T05:10:11+00:00",
+                                        "txnId": "YQBU90017956841303",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-18T05:10:11+00:00"
+                                    },
+                                    {
+                                        "amount": "3837.23",
+                                        "currentBalance": "319951.82",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/867109126806/Stuvan Keer/QRDN/31064674",
+                                        "reference": "847724267",
+                                        "transactionTimestamp": "2021-05-29T21:07:15+00:00",
+                                        "txnId": "TBYQ43843880461610",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-30T21:07:15+00:00"
+                                    },
+                                    {
+                                        "amount": "24204.18",
+                                        "currentBalance": "195301.88",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/961432931117/Riaan Dyal/AABO/37641788",
+                                        "reference": "559262496",
+                                        "transactionTimestamp": "2021-06-23T09:53:17+00:00",
+                                        "txnId": "IRKK82230979556292",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-24T09:53:17+00:00"
+                                    },
+                                    {
+                                        "amount": "47861.53",
+                                        "currentBalance": "412193.12",
+                                        "mode": "CARD",
+                                        "narration": "CARD/DE/616517951285/Tanya Wable/JZUI/07430016",
+                                        "reference": "750679995",
+                                        "transactionTimestamp": "2021-09-17T01:56:03+00:00",
+                                        "txnId": "JJFB68272652782157",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-09-18T01:56:03+00:00"
+                                    },
+                                    {
+                                        "amount": "35213.39",
+                                        "currentBalance": "361475.48",
+                                        "mode": "ATM",
+                                        "narration": "ATM/DE/387967693257/Shalv Bal/ZCQK/05502187",
+                                        "reference": "791312661",
+                                        "transactionTimestamp": "2021-04-09T04:07:48+00:00",
+                                        "txnId": "SQDY16136997407568",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-10T04:07:48+00:00"
+                                    },
+                                    {
+                                        "amount": "6223.75",
+                                        "currentBalance": "253051.1",
+                                        "mode": "UPI",
+                                        "narration": "UPI/CR/878133415554/Vedika Devan/GJDC/19439124",
+                                        "reference": "118169351",
+                                        "transactionTimestamp": "2021-06-01T20:22:18+00:00",
+                                        "txnId": "GFBF61547596367081",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-02T20:22:18+00:00"
+                                    },
+                                    {
+                                        "amount": "16040.13",
+                                        "currentBalance": "121201.54",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/917898552512/Kashvi Rajan/XGIQ/29680596",
+                                        "reference": "063566945",
+                                        "transactionTimestamp": "2021-09-03T16:18:04+00:00",
+                                        "txnId": "UFFV55990404609562",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-04T16:18:04+00:00"
+                                    },
+                                    {
+                                        "amount": "12584.22",
+                                        "currentBalance": "462885.46",
+                                        "mode": "UPI",
+                                        "narration": "UPI/CR/582611546555/Suhana Bora/YLGM/94236133",
+                                        "reference": "405429791",
+                                        "transactionTimestamp": "2021-04-21T14:39:23+00:00",
+                                        "txnId": "XZWF40015226953692",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-04-22T14:39:23+00:00"
+                                    },
+                                    {
+                                        "amount": "16364.32",
+                                        "currentBalance": "291165.61",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/882770472429/Tiya Sarraf/JQFI/53813158",
+                                        "reference": "932904697",
+                                        "transactionTimestamp": "2021-08-02T20:52:21+00:00",
+                                        "txnId": "IKVO36286727426962",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-08-03T20:52:21+00:00"
+                                    },
+                                    {
+                                        "amount": "39285.04",
+                                        "currentBalance": "293676.82",
+                                        "mode": "CASH",
+                                        "narration": "CASH/CR/296344993845/Pranay Kapadia/JQAL/62554743",
+                                        "reference": "782077964",
+                                        "transactionTimestamp": "2021-07-17T01:54:01+00:00",
+                                        "txnId": "SHCK70302958652321",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-18T01:54:01+00:00"
+                                    },
+                                    {
+                                        "amount": "41615.1",
+                                        "currentBalance": "460520.95",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/031235050174/Akarsh Khosla/BDBQ/61059532",
+                                        "reference": "707976106",
+                                        "transactionTimestamp": "2021-05-04T03:26:36+00:00",
+                                        "txnId": "JJPX24811169703077",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-05T03:26:36+00:00"
+                                    },
+                                    {
+                                        "amount": "12593.3",
+                                        "currentBalance": "314292.1",
+                                        "mode": "UPI",
+                                        "narration": "UPI/CR/075258478760/Akarsh Rajagopal/BLOR/26292919",
+                                        "reference": "065981025",
+                                        "transactionTimestamp": "2021-06-29T05:54:23+00:00",
+                                        "txnId": "HBAR25730043077912",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-30T05:54:23+00:00"
+                                    },
+                                    {
+                                        "amount": "29284.82",
+                                        "currentBalance": "266362.5",
+                                        "mode": "FT",
+                                        "narration": "FT/DE/326248084305/Neysa Aggarwal/NZEX/21765082",
+                                        "reference": "371035116",
+                                        "transactionTimestamp": "2021-09-08T12:21:29+00:00",
+                                        "txnId": "KXGA10630113724207",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-09-09T12:21:29+00:00"
+                                    },
+                                    {
+                                        "amount": "48888.49",
+                                        "currentBalance": "97702.57",
+                                        "mode": "UPI",
+                                        "narration": "UPI/CR/629098144014/Samiha Ramaswamy/EKYJ/94955313",
+                                        "reference": "207726922",
+                                        "transactionTimestamp": "2021-04-06T14:58:42+00:00",
+                                        "txnId": "FOKA02473477035127",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-04-07T14:58:42+00:00"
+                                    },
+                                    {
+                                        "amount": "39323.67",
+                                        "currentBalance": "189651.7",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/068156903815/Shaan Kulkarni/KGXT/38005023",
+                                        "reference": "325759896",
+                                        "transactionTimestamp": "2021-04-01T17:32:54+00:00",
+                                        "txnId": "MWZT20237792772098",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-02T17:32:54+00:00"
+                                    },
+                                    {
+                                        "amount": "39355.77",
+                                        "currentBalance": "295896.29",
+                                        "mode": "ATM",
+                                        "narration": "ATM/DE/068715824406/Nitara Swaminathan/OJYY/32065586",
+                                        "reference": "322279643",
+                                        "transactionTimestamp": "2021-09-15T09:29:22+00:00",
+                                        "txnId": "DPHO28260430552607",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-09-16T09:29:22+00:00"
+                                    },
+                                    {
+                                        "amount": "40442.28",
+                                        "currentBalance": "324097.41",
+                                        "mode": "CASH",
+                                        "narration": "CASH/DE/251459317673/Devansh Bhatia/FIOC/01696119",
+                                        "reference": "140820121",
+                                        "transactionTimestamp": "2021-05-04T12:56:34+00:00",
+                                        "txnId": "PQAC48986953655138",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-05T12:56:34+00:00"
+                                    },
+                                    {
+                                        "amount": "14900.77",
+                                        "currentBalance": "248806.0",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/320233051112/Jiya Lal/QIDX/87860306",
+                                        "reference": "154800103",
+                                        "transactionTimestamp": "2021-07-19T22:19:03+00:00",
+                                        "txnId": "XYWS90756478877232",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-07-20T22:19:03+00:00"
+                                    },
+                                    {
+                                        "amount": "1903.61",
+                                        "currentBalance": "189715.89",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/767499368157/Mahika Tara/LYMH/17182411",
+                                        "reference": "676979292",
+                                        "transactionTimestamp": "2021-06-11T18:27:25+00:00",
+                                        "txnId": "OHBO20150245668259",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-12T18:27:25+00:00"
+                                    },
+                                    {
+                                        "amount": "33848.3",
+                                        "currentBalance": "455999.12",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/331940509473/Eva Bera/DCBD/54728751",
+                                        "reference": "110706782",
+                                        "transactionTimestamp": "2021-07-02T10:53:56+00:00",
+                                        "txnId": "SJGI84742912318157",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-03T10:53:56+00:00"
+                                    },
+                                    {
+                                        "amount": "539.41",
+                                        "currentBalance": "315058.58",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/735607963588/Indrajit Vaidya/RNID/47323434",
+                                        "reference": "467194336",
+                                        "transactionTimestamp": "2021-05-31T16:03:36+00:00",
+                                        "txnId": "SIYA20725698234499",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-01T16:03:36+00:00"
+                                    },
+                                    {
+                                        "amount": "1259.94",
+                                        "currentBalance": "151124.2",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/778367852177/Divit Dewan/UAQF/86374609",
+                                        "reference": "784546285",
+                                        "transactionTimestamp": "2021-05-22T05:31:58+00:00",
+                                        "txnId": "HGKF19382194077836",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-23T05:31:58+00:00"
+                                    },
+                                    {
+                                        "amount": "25449.42",
+                                        "currentBalance": "187564.14",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/908849428141/Mamooty Bhatti/IHWB/58047140",
+                                        "reference": "779550318",
+                                        "transactionTimestamp": "2021-07-17T22:53:45+00:00",
+                                        "txnId": "DHUK50258729706635",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-18T22:53:45+00:00"
+                                    },
+                                    {
+                                        "amount": "38951.9",
+                                        "currentBalance": "475508.06",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/295809480436/Veer Butala/UELG/33760635",
+                                        "reference": "893871812",
+                                        "transactionTimestamp": "2021-08-26T22:04:34+00:00",
+                                        "txnId": "CEYP70790402362063",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-08-27T22:04:34+00:00"
+                                    },
+                                    {
+                                        "amount": "38582.46",
+                                        "currentBalance": "187511.52",
+                                        "mode": "UPI",
+                                        "narration": "UPI/DE/355909973765/Ehsaan Bhardwaj/LMPO/82564121",
+                                        "reference": "315081221",
+                                        "transactionTimestamp": "2021-08-10T10:30:07+00:00",
+                                        "txnId": "DVZR03667099685688",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-08-11T10:30:07+00:00"
+                                    },
+                                    {
+                                        "amount": "7521.49",
+                                        "currentBalance": "300810.19",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/867029445408/Parinaaz Vora/IVBN/68160992",
+                                        "reference": "128771551",
+                                        "transactionTimestamp": "2021-08-17T04:16:48+00:00",
+                                        "txnId": "MMKH70510097194001",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-08-18T04:16:48+00:00"
+                                    },
+                                    {
+                                        "amount": "40868.6",
+                                        "currentBalance": "367674.05",
+                                        "mode": "UPI",
+                                        "narration": "UPI/CR/161417358200/Vihaan Sehgal/ZKMO/68666209",
+                                        "reference": "114497826",
+                                        "transactionTimestamp": "2021-07-20T05:29:42+00:00",
+                                        "txnId": "TNRB08391916786994",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-21T05:29:42+00:00"
+                                    },
+                                    {
+                                        "amount": "21775.17",
+                                        "currentBalance": "9756.29",
+                                        "mode": "CASH",
+                                        "narration": "CASH/DE/465130631077/Aniruddh Bhalla/JBZV/36196018",
+                                        "reference": "438425223",
+                                        "transactionTimestamp": "2021-04-04T13:05:59+00:00",
+                                        "txnId": "XMMC70049063190784",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-05T13:05:59+00:00"
+                                    },
+                                    {
+                                        "amount": "2274.39",
+                                        "currentBalance": "49363.82",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/131573582850/Stuvan Barman/SIJF/20097777",
+                                        "reference": "095734063",
+                                        "transactionTimestamp": "2021-08-29T10:48:53+00:00",
+                                        "txnId": "PAWD40726206126985",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-08-30T10:48:53+00:00"
+                                    },
+                                    {
+                                        "amount": "37894.93",
+                                        "currentBalance": "316573.42",
+                                        "mode": "UPI",
+                                        "narration": "UPI/DE/781113619564/Ehsaan Bhat/THLL/21918102",
+                                        "reference": "543952122",
+                                        "transactionTimestamp": "2021-08-26T20:26:17+00:00",
+                                        "txnId": "MWDZ51892713902787",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-08-27T20:26:17+00:00"
+                                    },
+                                    {
+                                        "amount": "31116.52",
+                                        "currentBalance": "126063.61",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/527395843520/Darshit Gera/TLSQ/48776189",
+                                        "reference": "685372668",
+                                        "transactionTimestamp": "2021-06-20T22:35:31+00:00",
+                                        "txnId": "MQPG31512438158409",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-21T22:35:31+00:00"
+                                    },
+                                    {
+                                        "amount": "14287.93",
+                                        "currentBalance": "213660.05",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/645616421162/Neysa Chanda/EFKP/25782066",
+                                        "reference": "409906092",
+                                        "transactionTimestamp": "2021-09-11T22:57:28+00:00",
+                                        "txnId": "JNVF20978694374084",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-12T22:57:28+00:00"
+                                    },
+                                    {
+                                        "amount": "31938.4",
+                                        "currentBalance": "74967.7",
+                                        "mode": "CARD",
+                                        "narration": "CARD/DE/239451605868/Abram Shetty/MGPR/74303133",
+                                        "reference": "357370541",
+                                        "transactionTimestamp": "2021-05-17T06:42:00+00:00",
+                                        "txnId": "IMDE28185878445576",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-18T06:42:00+00:00"
+                                    },
+                                    {
+                                        "amount": "41666.41",
+                                        "currentBalance": "490753.71",
+                                        "mode": "UPI",
+                                        "narration": "UPI/DE/210568007413/Mishti Balan/CNXD/75258985",
+                                        "reference": "521995428",
+                                        "transactionTimestamp": "2021-06-26T23:09:07+00:00",
+                                        "txnId": "HKZL73324997093253",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-06-27T23:09:07+00:00"
+                                    },
+                                    {
+                                        "amount": "33161.09",
+                                        "currentBalance": "171286.81",
+                                        "mode": "CASH",
+                                        "narration": "CASH/CR/253888066540/Ranbir Rao/RGVN/36423622",
+                                        "reference": "671710101",
+                                        "transactionTimestamp": "2021-08-31T15:46:24+00:00",
+                                        "txnId": "NTSH72165813522883",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-01T15:46:24+00:00"
+                                    },
+                                    {
+                                        "amount": "26958.9",
+                                        "currentBalance": "480565.02",
+                                        "mode": "UPI",
+                                        "narration": "UPI/DE/992159034471/Jhanvi Sangha/QTKE/11828028",
+                                        "reference": "049185291",
+                                        "transactionTimestamp": "2021-05-26T01:43:03+00:00",
+                                        "txnId": "CTUB35936034062220",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-27T01:43:03+00:00"
+                                    },
+                                    {
+                                        "amount": "10108.67",
+                                        "currentBalance": "75462.98",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/383728983251/Madhav Hans/QYYG/09706235",
+                                        "reference": "494367598",
+                                        "transactionTimestamp": "2021-04-26T03:15:59+00:00",
+                                        "txnId": "KGPG46970017374936",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-27T03:15:59+00:00"
+                                    },
+                                    {
+                                        "amount": "38721.4",
+                                        "currentBalance": "215894.78",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/898676786022/Zoya Reddy/WVHB/78187156",
+                                        "reference": "736190199",
+                                        "transactionTimestamp": "2021-06-24T13:02:07+00:00",
+                                        "txnId": "BQSH58769841319749",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-25T13:02:07+00:00"
+                                    },
+                                    {
+                                        "amount": "25614.21",
+                                        "currentBalance": "61279.07",
+                                        "mode": "UPI",
+                                        "narration": "UPI/CR/545939633549/Raghav Balay/QARK/65302806",
+                                        "reference": "971003323",
+                                        "transactionTimestamp": "2021-05-11T08:24:33+00:00",
+                                        "txnId": "TBAI86196299030984",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-12T08:24:33+00:00"
+                                    },
+                                    {
+                                        "amount": "14347.22",
+                                        "currentBalance": "271287.1",
+                                        "mode": "CASH",
+                                        "narration": "CASH/DE/313850930732/Indranil Rajagopalan/YQSW/02444252",
+                                        "reference": "729014113",
+                                        "transactionTimestamp": "2021-09-03T12:19:33+00:00",
+                                        "txnId": "KWTJ92932372571348",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-09-04T12:19:33+00:00"
+                                    },
+                                    {
+                                        "amount": "45228.66",
+                                        "currentBalance": "242090.45",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/401739441442/Saira Agarwal/BEGM/64912431",
+                                        "reference": "482808718",
+                                        "transactionTimestamp": "2021-07-11T04:47:21+00:00",
+                                        "txnId": "JQRZ52041214362590",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-12T04:47:21+00:00"
+                                    },
+                                    {
+                                        "amount": "23400.48",
+                                        "currentBalance": "405074.66",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/487713407258/Gokul Mahal/LEZL/93011396",
+                                        "reference": "823708180",
+                                        "transactionTimestamp": "2021-06-14T06:38:46+00:00",
+                                        "txnId": "BCAD84576054835496",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-06-15T06:38:46+00:00"
+                                    },
+                                    {
+                                        "amount": "48504.35",
+                                        "currentBalance": "310567.66",
+                                        "mode": "UPI",
+                                        "narration": "UPI/DE/677770713522/Akarsh Hegde/QZOK/27350924",
+                                        "reference": "598291075",
+                                        "transactionTimestamp": "2021-05-14T02:14:19+00:00",
+                                        "txnId": "SZKD94355822040069",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-15T02:14:19+00:00"
+                                    },
+                                    {
+                                        "amount": "17027.71",
+                                        "currentBalance": "165909.35",
+                                        "mode": "UPI",
+                                        "narration": "UPI/DE/502432162262/Himmat Dash/NKUS/75592942",
+                                        "reference": "753080390",
+                                        "transactionTimestamp": "2021-09-11T16:39:46+00:00",
+                                        "txnId": "GOVZ85162290780825",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-09-12T16:39:46+00:00"
+                                    },
+                                    {
+                                        "amount": "3690.43",
+                                        "currentBalance": "12658.95",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/828530231729/Saira Garde/PITF/23400856",
+                                        "reference": "374158022",
+                                        "transactionTimestamp": "2021-08-24T14:58:44+00:00",
+                                        "txnId": "IYDM41877842596224",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-08-25T14:58:44+00:00"
+                                    },
+                                    {
+                                        "amount": "33012.09",
+                                        "currentBalance": "297618.39",
+                                        "mode": "FT",
+                                        "narration": "FT/DE/784393267988/Vivaan Kothari/ZPFO/15073388",
+                                        "reference": "139455831",
+                                        "transactionTimestamp": "2021-04-08T12:05:47+00:00",
+                                        "txnId": "HLFL19605905296914",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-09T12:05:47+00:00"
+                                    },
+                                    {
+                                        "amount": "8173.71",
+                                        "currentBalance": "349865.03",
+                                        "mode": "FT",
+                                        "narration": "FT/DE/492201127965/Aayush Chacko/EMIB/72376725",
+                                        "reference": "765492252",
+                                        "transactionTimestamp": "2021-04-19T11:09:48+00:00",
+                                        "txnId": "ZNJK64958526487853",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-20T11:09:48+00:00"
+                                    },
+                                    {
+                                        "amount": "11916.56",
+                                        "currentBalance": "471329.7",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/123886690150/Ryan Apte/GWGL/42211696",
+                                        "reference": "337382365",
+                                        "transactionTimestamp": "2021-09-29T03:28:32+00:00",
+                                        "txnId": "TFTL32635721209850",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-30T03:28:32+00:00"
+                                    },
+                                    {
+                                        "amount": "16653.54",
+                                        "currentBalance": "73567.02",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/030002057813/Yuvaan Kapur/LKAQ/70836100",
+                                        "reference": "526004514",
+                                        "transactionTimestamp": "2021-09-02T20:57:31+00:00",
+                                        "txnId": "UEGX58027763156881",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-03T20:57:31+00:00"
+                                    },
+                                    {
+                                        "amount": "2737.01",
+                                        "currentBalance": "191175.09",
+                                        "mode": "FT",
+                                        "narration": "FT/DE/974017843132/Aniruddh Manda/XXYR/73994582",
+                                        "reference": "645042030",
+                                        "transactionTimestamp": "2021-07-15T02:57:01+00:00",
+                                        "txnId": "GLGH30487486043123",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-07-16T02:57:01+00:00"
+                                    },
+                                    {
+                                        "amount": "33124.23",
+                                        "currentBalance": "41289.46",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/909892494754/Rohan Ramanathan/NHOG/19573767",
+                                        "reference": "445317364",
+                                        "transactionTimestamp": "2021-07-16T16:46:57+00:00",
+                                        "txnId": "TIDL19833491505361",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-17T16:46:57+00:00"
+                                    },
+                                    {
+                                        "amount": "5533.59",
+                                        "currentBalance": "496176.39",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/057871820521/Ira Balan/NGHD/55270798",
+                                        "reference": "649525234",
+                                        "transactionTimestamp": "2021-09-02T12:48:30+00:00",
+                                        "txnId": "MSLJ37015894267961",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-03T12:48:30+00:00"
+                                    },
+                                    {
+                                        "amount": "12765.15",
+                                        "currentBalance": "10837.69",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/693619936906/Madhup Batra/UFIA/42788670",
+                                        "reference": "393589616",
+                                        "transactionTimestamp": "2021-06-05T09:23:38+00:00",
+                                        "txnId": "RZZA19645471627994",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-06T09:23:38+00:00"
+                                    },
+                                    {
+                                        "amount": "47223.03",
+                                        "currentBalance": "111404.1",
+                                        "mode": "CARD",
+                                        "narration": "CARD/DE/926088144366/Jayesh Ravel/KEPO/78284563",
+                                        "reference": "062476807",
+                                        "transactionTimestamp": "2021-08-18T21:07:30+00:00",
+                                        "txnId": "SXOT24419601500117",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-08-19T21:07:30+00:00"
+                                    },
+                                    {
+                                        "amount": "43843.45",
+                                        "currentBalance": "216947.37",
+                                        "mode": "UPI",
+                                        "narration": "UPI/DE/765430771095/Bhavin Chaudhary/HINK/75931153",
+                                        "reference": "093517367",
+                                        "transactionTimestamp": "2021-09-22T03:27:41+00:00",
+                                        "txnId": "ZZNY40345398123627",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-09-23T03:27:41+00:00"
+                                    },
+                                    {
+                                        "amount": "2675.97",
+                                        "currentBalance": "256287.46",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/934771687771/Umang Kari/RLUI/18477210",
+                                        "reference": "948374255",
+                                        "transactionTimestamp": "2021-09-11T08:23:47+00:00",
+                                        "txnId": "WRDX32814151055221",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-12T08:23:47+00:00"
+                                    },
+                                    {
+                                        "amount": "30515.45",
+                                        "currentBalance": "244087.9",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/180412308614/Nishith Mammen/ZGZS/26361885",
+                                        "reference": "511664727",
+                                        "transactionTimestamp": "2021-04-09T17:36:06+00:00",
+                                        "txnId": "UVEJ13460788068509",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-04-10T17:36:06+00:00"
+                                    },
+                                    {
+                                        "amount": "34732.86",
+                                        "currentBalance": "371467.13",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/990476580955/Vanya Seth/CFAJ/14928117",
+                                        "reference": "812370675",
+                                        "transactionTimestamp": "2021-04-02T23:28:18+00:00",
+                                        "txnId": "DUXE13885297166244",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-04-03T23:28:18+00:00"
+                                    },
+                                    {
+                                        "amount": "10840.75",
+                                        "currentBalance": "131599.75",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/967155607014/Seher Wali/XMRW/30020383",
+                                        "reference": "644274298",
+                                        "transactionTimestamp": "2021-09-21T22:13:02+00:00",
+                                        "txnId": "PZAX46275520692742",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-22T22:13:02+00:00"
+                                    },
+                                    {
+                                        "amount": "38555.35",
+                                        "currentBalance": "283593.63",
+                                        "mode": "CARD",
+                                        "narration": "CARD/DE/314005495524/Nakul Gulati/TAAT/74531063",
+                                        "reference": "519102026",
+                                        "transactionTimestamp": "2021-04-29T06:07:33+00:00",
+                                        "txnId": "MLID36298974570983",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-30T06:07:33+00:00"
+                                    },
+                                    {
+                                        "amount": "38301.44",
+                                        "currentBalance": "346692.3",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/210839445161/Mahika Jha/WDRQ/49256698",
+                                        "reference": "611470500",
+                                        "transactionTimestamp": "2021-06-20T03:57:33+00:00",
+                                        "txnId": "UBHB40955566452578",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-21T03:57:33+00:00"
+                                    },
+                                    {
+                                        "amount": "48903.76",
+                                        "currentBalance": "413289.96",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/095098561750/Kanav Raman/OOYG/75941536",
+                                        "reference": "422910708",
+                                        "transactionTimestamp": "2021-05-15T10:07:04+00:00",
+                                        "txnId": "UINW20408981739558",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-16T10:07:04+00:00"
+                                    },
+                                    {
+                                        "amount": "6281.0",
+                                        "currentBalance": "85850.1",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/962819211831/Divit Atwal/JHWO/98845529",
+                                        "reference": "410853946",
+                                        "transactionTimestamp": "2021-06-04T12:17:20+00:00",
+                                        "txnId": "HUBC76188211825759",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-06-05T12:17:20+00:00"
+                                    },
+                                    {
+                                        "amount": "45014.54",
+                                        "currentBalance": "309459.42",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/306332266790/Hazel Hayre/DYYU/03648241",
+                                        "reference": "088810618",
+                                        "transactionTimestamp": "2021-08-31T07:42:19+00:00",
+                                        "txnId": "WJND64624222291936",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-09-01T07:42:19+00:00"
+                                    },
+                                    {
+                                        "amount": "38822.44",
+                                        "currentBalance": "416607.4",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/427557419219/Yasmin Bassi/CWON/01110229",
+                                        "reference": "877652492",
+                                        "transactionTimestamp": "2021-07-22T02:58:18+00:00",
+                                        "txnId": "QXRQ07154037473835",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-23T02:58:18+00:00"
+                                    },
+                                    {
+                                        "amount": "32938.17",
+                                        "currentBalance": "494236.75",
+                                        "mode": "FT",
+                                        "narration": "FT/DE/119277486645/Madhup Chokshi/DKUN/82977829",
+                                        "reference": "500901512",
+                                        "transactionTimestamp": "2021-04-03T18:41:19+00:00",
+                                        "txnId": "JAEX63516952494543",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-04T18:41:19+00:00"
+                                    },
+                                    {
+                                        "amount": "22642.46",
+                                        "currentBalance": "427774.04",
+                                        "mode": "ATM",
+                                        "narration": "ATM/DE/695855316560/Eshani Krishnan/QTBZ/63827159",
+                                        "reference": "007771718",
+                                        "transactionTimestamp": "2021-05-14T23:35:15+00:00",
+                                        "txnId": "ZEUD03538380899032",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-15T23:35:15+00:00"
+                                    },
+                                    {
+                                        "amount": "3156.45",
+                                        "currentBalance": "94453.29",
+                                        "mode": "FT",
+                                        "narration": "FT/DE/953125708956/Dhanuk Aurora/BVLZ/67253263",
+                                        "reference": "144888481",
+                                        "transactionTimestamp": "2021-05-03T13:06:00+00:00",
+                                        "txnId": "JIDU27529401682965",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-04T13:06:00+00:00"
+                                    },
+                                    {
+                                        "amount": "14296.6",
+                                        "currentBalance": "142292.96",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/670552313550/Aniruddh Shenoy/HQFR/77769732",
+                                        "reference": "510415272",
+                                        "transactionTimestamp": "2021-08-13T22:31:25+00:00",
+                                        "txnId": "QCYJ43473203180801",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-08-14T22:31:25+00:00"
+                                    },
+                                    {
+                                        "amount": "12195.9",
+                                        "currentBalance": "277852.73",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/379143009218/Samiha Thakkar/LQKZ/85861987",
+                                        "reference": "392191848",
+                                        "transactionTimestamp": "2021-07-13T04:23:43+00:00",
+                                        "txnId": "JMYR07059075536421",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-14T04:23:43+00:00"
+                                    },
+                                    {
+                                        "amount": "43019.1",
+                                        "currentBalance": "475109.44",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/812314065292/Kashvi Bhandari/MFTC/71678845",
+                                        "reference": "520257129",
+                                        "transactionTimestamp": "2021-05-31T20:16:35+00:00",
+                                        "txnId": "VATP03554239349314",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-01T20:16:35+00:00"
+                                    },
+                                    {
+                                        "amount": "28852.81",
+                                        "currentBalance": "106180.92",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/210101417483/Navya Contractor/YNVV/75093718",
+                                        "reference": "343440974",
+                                        "transactionTimestamp": "2021-08-22T00:48:54+00:00",
+                                        "txnId": "DTKA12315951207131",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-08-23T00:48:54+00:00"
+                                    },
+                                    {
+                                        "amount": "18493.77",
+                                        "currentBalance": "149864.31",
+                                        "mode": "UPI",
+                                        "narration": "UPI/DE/765198088423/Raghav Grewal/BYFV/69800715",
+                                        "reference": "699983041",
+                                        "transactionTimestamp": "2021-08-08T12:30:46+00:00",
+                                        "txnId": "CMEU61731231370026",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-08-09T12:30:46+00:00"
+                                    },
+                                    {
+                                        "amount": "38792.33",
+                                        "currentBalance": "222048.82",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/131130165768/Jivin Kashyap/LHOK/63192525",
+                                        "reference": "367947323",
+                                        "transactionTimestamp": "2021-05-29T15:35:23+00:00",
+                                        "txnId": "GRWO24838283543495",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-30T15:35:23+00:00"
+                                    },
+                                    {
+                                        "amount": "41121.02",
+                                        "currentBalance": "275636.85",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/596725213787/Samiha Khare/QXIT/13486309",
+                                        "reference": "475052220",
+                                        "transactionTimestamp": "2021-05-27T03:07:06+00:00",
+                                        "txnId": "WKTM41406459485512",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-28T03:07:06+00:00"
+                                    },
+                                    {
+                                        "amount": "34047.09",
+                                        "currentBalance": "266708.6",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/861659262409/Tushar Venkatesh/NMJN/93317053",
+                                        "reference": "136032309",
+                                        "transactionTimestamp": "2021-05-21T14:55:58+00:00",
+                                        "txnId": "ARKJ75582387339443",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-22T14:55:58+00:00"
+                                    },
+                                    {
+                                        "amount": "32517.67",
+                                        "currentBalance": "422744.7",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/689047636930/Bhamini Bhargava/FBID/55476467",
+                                        "reference": "831049490",
+                                        "transactionTimestamp": "2021-07-06T01:51:49+00:00",
+                                        "txnId": "WPQJ49882351747389",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-07T01:51:49+00:00"
+                                    },
+                                    {
+                                        "amount": "20866.67",
+                                        "currentBalance": "424493.73",
+                                        "mode": "CARD",
+                                        "narration": "CARD/DE/717198215912/Ranbir Date/MVVB/94600194",
+                                        "reference": "015493563",
+                                        "transactionTimestamp": "2021-09-03T22:08:36+00:00",
+                                        "txnId": "VGQW70225030831947",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-09-04T22:08:36+00:00"
+                                    },
+                                    {
+                                        "amount": "29418.6",
+                                        "currentBalance": "300385.23",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/271024494436/Lagan Ghose/KMDQ/46528099",
+                                        "reference": "653907392",
+                                        "transactionTimestamp": "2021-08-24T18:43:25+00:00",
+                                        "txnId": "CYME19560975284429",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-08-25T18:43:25+00:00"
+                                    },
+                                    {
+                                        "amount": "42124.49",
+                                        "currentBalance": "26353.97",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/259657097732/Anaya Grover/FMHC/60388120",
+                                        "reference": "331234931",
+                                        "transactionTimestamp": "2021-06-30T06:20:14+00:00",
+                                        "txnId": "LWUM39668617170886",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-01T06:20:14+00:00"
+                                    },
+                                    {
+                                        "amount": "44616.2",
+                                        "currentBalance": "403363.9",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/969717829375/Stuvan Suri/PQFX/21264370",
+                                        "reference": "710338660",
+                                        "transactionTimestamp": "2021-08-19T02:44:01+00:00",
+                                        "txnId": "GGGZ63468335884000",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-08-20T02:44:01+00:00"
+                                    },
+                                    {
+                                        "amount": "37383.58",
+                                        "currentBalance": "302657.41",
+                                        "mode": "UPI",
+                                        "narration": "UPI/CR/205549887185/Zoya Kapoor/TGBJ/51108314",
+                                        "reference": "496574682",
+                                        "transactionTimestamp": "2021-04-12T00:22:15+00:00",
+                                        "txnId": "VBUH05810172059753",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-04-13T00:22:15+00:00"
+                                    },
+                                    {
+                                        "amount": "30060.58",
+                                        "currentBalance": "296069.43",
+                                        "mode": "CASH",
+                                        "narration": "CASH/DE/048885360964/Parinaaz Ghosh/GMJT/29969947",
+                                        "reference": "852615380",
+                                        "transactionTimestamp": "2021-06-28T14:57:27+00:00",
+                                        "txnId": "TSML83925411748719",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-06-29T14:57:27+00:00"
+                                    },
+                                    {
+                                        "amount": "25311.69",
+                                        "currentBalance": "450438.22",
+                                        "mode": "ATM",
+                                        "narration": "ATM/DE/406545613288/Siya Mand/XFPK/43615571",
+                                        "reference": "909372119",
+                                        "transactionTimestamp": "2021-06-19T05:46:44+00:00",
+                                        "txnId": "ZGKU17677318089217",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-06-20T05:46:44+00:00"
+                                    },
+                                    {
+                                        "amount": "11176.92",
+                                        "currentBalance": "36175.7",
+                                        "mode": "CASH",
+                                        "narration": "CASH/CR/302151259429/Saira Chakrabarti/TXBB/58647209",
+                                        "reference": "725939343",
+                                        "transactionTimestamp": "2021-07-14T12:15:29+00:00",
+                                        "txnId": "WVIS84699753948765",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-15T12:15:29+00:00"
+                                    },
+                                    {
+                                        "amount": "32839.95",
+                                        "currentBalance": "150314.91",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/290939029024/Kiaan Hayre/AIBD/15414252",
+                                        "reference": "535268823",
+                                        "transactionTimestamp": "2021-05-18T21:54:26+00:00",
+                                        "txnId": "LFJX92334382141607",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-19T21:54:26+00:00"
+                                    },
+                                    {
+                                        "amount": "2723.45",
+                                        "currentBalance": "188150.34",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/331671711470/Mehul Bhattacharyya/HRMV/22870601",
+                                        "reference": "819129771",
+                                        "transactionTimestamp": "2021-05-01T06:00:25+00:00",
+                                        "txnId": "ZNVQ20248363100345",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-02T06:00:25+00:00"
+                                    },
+                                    {
+                                        "amount": "4824.31",
+                                        "currentBalance": "190224.37",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/CR/088272513985/Pihu Singhal/PDHE/46341572",
+                                        "reference": "984947648",
+                                        "transactionTimestamp": "2021-04-15T05:31:41+00:00",
+                                        "txnId": "CRAP24475860149947",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-04-16T05:31:41+00:00"
+                                    },
+                                    {
+                                        "amount": "16429.09",
+                                        "currentBalance": "366978.69",
+                                        "mode": "CASH",
+                                        "narration": "CASH/DE/997254942100/Keya Tara/MJJI/67495065",
+                                        "reference": "543773296",
+                                        "transactionTimestamp": "2021-08-01T17:09:58+00:00",
+                                        "txnId": "VBCQ41290739178354",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-08-02T17:09:58+00:00"
+                                    },
+                                    {
+                                        "amount": "34037.36",
+                                        "currentBalance": "441502.17",
+                                        "mode": "CASH",
+                                        "narration": "CASH/DE/257952101692/Yashvi Hayre/DKFW/44578742",
+                                        "reference": "886426654",
+                                        "transactionTimestamp": "2021-04-19T22:06:09+00:00",
+                                        "txnId": "KTNI95156905127982",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-04-20T22:06:09+00:00"
+                                    },
+                                    {
+                                        "amount": "15632.06",
+                                        "currentBalance": "283567.51",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/585032794928/Vanya Sharaf/QSOO/56807259",
+                                        "reference": "488543262",
+                                        "transactionTimestamp": "2021-06-03T01:16:50+00:00",
+                                        "txnId": "LVKG17923869005041",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-06-04T01:16:50+00:00"
+                                    },
+                                    {
+                                        "amount": "48023.88",
+                                        "currentBalance": "407581.74",
+                                        "mode": "ATM",
+                                        "narration": "ATM/CR/520459351138/Nayantara Jain/XHRX/00034017",
+                                        "reference": "676560541",
+                                        "transactionTimestamp": "2021-05-27T12:03:47+00:00",
+                                        "txnId": "MBNN56626768210129",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-05-28T12:03:47+00:00"
+                                    },
+                                    {
+                                        "amount": "752.41",
+                                        "currentBalance": "138260.85",
+                                        "mode": "CASH",
+                                        "narration": "CASH/CR/373022143209/Kavya Manda/CELH/15471429",
+                                        "reference": "184649607",
+                                        "transactionTimestamp": "2021-06-14T06:33:32+00:00",
+                                        "txnId": "REZY86305875397955",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-15T06:33:32+00:00"
+                                    },
+                                    {
+                                        "amount": "22079.18",
+                                        "currentBalance": "322529.68",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/984809360999/Amani Rama/SUTZ/17013514",
+                                        "reference": "587953867",
+                                        "transactionTimestamp": "2021-09-26T09:48:35+00:00",
+                                        "txnId": "FBEA28257141490940",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-09-27T09:48:35+00:00"
+                                    },
+                                    {
+                                        "amount": "5602.43",
+                                        "currentBalance": "330369.7",
+                                        "mode": "OTHERS",
+                                        "narration": "OTHERS/DE/839061675024/Amani Mandal/QWVB/04483668",
+                                        "reference": "693325791",
+                                        "transactionTimestamp": "2021-05-22T22:44:24+00:00",
+                                        "txnId": "PJZN62686506444953",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-05-23T22:44:24+00:00"
+                                    },
+                                    {
+                                        "amount": "10022.7",
+                                        "currentBalance": "375401.34",
+                                        "mode": "UPI",
+                                        "narration": "UPI/CR/322828288790/Darshit Korpal/DYAD/36541331",
+                                        "reference": "508758481",
+                                        "transactionTimestamp": "2021-07-10T19:11:15+00:00",
+                                        "txnId": "OWRC17768954772456",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-07-11T19:11:15+00:00"
+                                    },
+                                    {
+                                        "amount": "9461.13",
+                                        "currentBalance": "170831.69",
+                                        "mode": "CARD",
+                                        "narration": "CARD/CR/058636989286/Sumer Savant/FOCF/23869949",
+                                        "reference": "241486395",
+                                        "transactionTimestamp": "2021-04-20T10:42:48+00:00",
+                                        "txnId": "KSHU51140089790985",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-04-21T10:42:48+00:00"
+                                    },
+                                    {
+                                        "amount": "30489.98",
+                                        "currentBalance": "238096.69",
+                                        "mode": "FT",
+                                        "narration": "FT/CR/897187852061/Rohan Krish/MRVW/77280332",
+                                        "reference": "066365939",
+                                        "transactionTimestamp": "2021-06-01T06:45:41+00:00",
+                                        "txnId": "PEPD01787845891528",
+                                        "type": "CREDIT",
+                                        "valueDate": "2021-06-02T06:45:41+00:00"
+                                    },
+                                    {
+                                        "amount": "14758.64",
+                                        "currentBalance": "387843.5",
+                                        "mode": "FT",
+                                        "narration": "FT/DE/905499588555/Ritvik Sunder/VHPQ/41164934",
+                                        "reference": "340437463",
+                                        "transactionTimestamp": "2021-08-06T04:02:47+00:00",
+                                        "txnId": "WVAM88890674264429",
+                                        "type": "DEBIT",
+                                        "valueDate": "2021-08-07T04:02:47+00:00"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "status": "COMPLETED",
+    "traceId": "1-64b02108-3369adc87c1b38820dbbe77a"
+}

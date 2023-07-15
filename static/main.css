@@ -1,0 +1,62 @@
+
+.scroll-container {
+    overflow-x: scroll;   
+    white-space: nowrap;  
+    max-width: 1400px;
+    margin: 0 auto;/* Adjust width as needed */
+    scroll-behavior: smooth;
+  }
+  
+  .scroll-content {
+    display: inline-block; 
+    margin-left: 100px;
+    -webkit-overflow-scrolling: touch;
+    margin-right: 100px;
+  }
+  .scrollable-div {
+    display: inline-block; 
+    min-width: 100px;   
+  
+    padding: 10px;          
+    background-color: lightblue;
+    font-weight: bold;
+    font-size:20;
+    border-radius: 20px;
+    color: black; 
+    margin-right: 10px;   
+    
+    margin-left: 10px;
+    scroll-snap-align: start;
+    transition: width 0.3s ease;  
+  }
+
+
+  button#left {
+    position: absolute;
+    left: 10;
+    top: 50%;
+    border-radius: 20px;
+    transform: translateY(-50%);
+    background-color: #445cc8; 
+    border: none;
+    border-radius: 5px; 
+    color: #333; 
+    font-size: 40px; 
+    cursor: pointer;
+  }
+  button#right {
+    position: absolute;
+    right: 10;
+    top: 50%;
+    border-radius: 20px;
+    transform: translateY(-50%);
+    background-color: #445cc8; 
+    border: none;
+    border-radius: 5px; 
+    color: #333333; 
+    font-size: 40px; 
+    cursor: pointer;
+  }
+
+
+  
